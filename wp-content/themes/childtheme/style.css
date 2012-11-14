@@ -1,0 +1,50 @@
+/*
+Theme Name:     Twenty Eleven Child
+Theme URI:      http://www.douglasconsulting.net
+Description:    Child theme for the Twenty Eleven theme 
+Author:         Jason Douglas
+Author URI:     http://www.douglasconsulting.net
+Template:       twentyeleven
+Version:        0.1.0
+*/
+
+@import url(../twentyeleven/style.css);
+
+div#page.hfeed
+{
+   	border-radius: 65px;
+	border-color: gray;
+	border-style: inset;
+}
+
+div#site-generator
+{
+   	border-bottom-right-radius: 55px;
+   	border-bottom-left-radius: 55px;
+}
+
+#branding .only-search + #access div 
+{
+	padding-right: 105px;
+}
+
+div.menu
+{
+   	font-family: tahoma;
+}
+
+#access ul
+{
+	font-size: 11px;
+}
+
+#access ul ul a
+{
+   	font-size: 11px;
+}
+
+div.only-search.with-image
+{
+   	display: none;
+}
+
