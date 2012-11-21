@@ -1,0 +1,68 @@
+/*
+Theme Name:     SBCS 
+Theme URI:      http://www.douglasconsulting.net
+Description:    Child theme of the Twenty Eleven theme developed for SBCS.
+Author:         Jason Douglas
+Author URI:     http://www.douglasconsulting.net
+Template:       sbcs-twentyeleven
+Version:        0.1.0
+*/
+
+@import url(../twentyeleven/style.css);
+
+div#page.hfeed
+{
+   	border-radius: 65px;
+	border-color: gray;
+	border-style: inset;
+}
+
+div#site-generator
+{
+   	border-bottom-right-radius: 55px;
+   	border-bottom-left-radius: 55px;
+}
+
+#branding .only-search + #access div 
+{
+	padding-right: 105px;
+}
+
+div.menu
+{
+   	font-family: tahoma;
+}
+
+#access ul
+{
+	font-size: 11px;
+}
+
+#access ul ul a
+{
+   	font-size: 11px;
+}
+
+div.only-search.with-image
+{
+   	//display: none;
+}
+
+hr.sbcs_info
+{
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+
+div.sbcs-info-widget
+{
+   	border-radius: 15px;
+	border-style: inset;
+	border-color: gray;
+	border-width: 1px;
+	padding: 5px;
+}

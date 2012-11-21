@@ -18,50 +18,65 @@ class SBCS_Info_Widget
 
 		?>
 		<div class="sbcs-info-widget">
-		<php echo $before_title; ?>
-		<?php echo "TITLE!!!!"; ?>
-		<php echo $after_title; ?>
-		<hr class="sbcs_info">
+		<?php echo $before_title; ?>
 		<?php
 		$count=0;
 		switch( $info_type )
 		{
 			case "news_information":
+				echo "News & Information";
+				echo $after_title;
 				?>
+				<hr class="sbcs_info">
 				<div class="sbcs_info">
 					<?php echo "News & Information"; ?><br />
 				</div>
 	            <?php 
 				break;
 			case "crusader_nation":
+				echo "Crusader Nation";
+				echo $after_title;
 				?>
+				<hr class="sbcs_info">
 				<div class="sbcs_info">
 					<?php echo "Crusader Nation"; ?><br />
 	            <?php 
 				break;
 			case "uniforms":
+				echo "Uniforms";
+				echo $after_title;
 				?>
+				<hr class="sbcs_info">
 				<div class="sbcs_info">
 					<?php echo "Uniforms"; ?><br />
 				</div>
 	            <?php 
 				break;
 			case "annual_report":
+				echo "Annual Report";
+				echo $after_title;
 				?>
+				<hr class="sbcs_info">
 				<div class="sbcs_info">
 					<?php echo "Annual Report"; ?><br />
 				</div>
 	            <?php 
 				break;
 			case "summer_reading_list":
+				echo "Summer Reading List";
+				echo $after_title;
 				?>
+				<hr class="sbcs_info">
 				<div class="sbcs_info">
 					<?php echo "Summer Reading List"; ?><br />
 				</div>
 	            <?php 
 				break;
 			case "mass_schedule":
+				echo "Mass Schedule";
+				echo $after_title;
 				?>
+				<hr class="sbcs_info">
 				<div class="sbcs_info">
 					<?php echo "Mass Schedule"; ?><br />
 				</div>
@@ -69,7 +84,9 @@ class SBCS_Info_Widget
 				break;
 		}
 		?>
+		</div>
 		<?php
+		 echo $after_title;
 		 echo $after_widget;
 	}
 
@@ -104,16 +121,18 @@ class SBCS_Info_Widget
 	 */
 	function form($config)
 	{
+		$info_type = $config['info_type'];
+
 	?>
-		<label for="<?php echo  $this->get_field_id("info_type"); ?>">
+		<label for="<?php echo $this->get_field_id("info_type"); ?>">
 		<p>Information Type: 
-			<select name="<?php echo  $this->get_field_name("info_type"); ?>" id="<?php echo  $this->get_field_id("info_type") ?>">
-				<option value="news_information">News & Information</option>
-				<option value="crusader_nation">Crusader Nation</option>
-				<option value="uniforms">Uniforms</option>
-				<option value="annual_report">Annual Report</option>
-				<option value="summer_reading_list">Summer Reading List</option>
-				<option value="mass_schedule">Mass Schedule</option>
+			<select name="<?php echo $this->get_field_name("info_type"); ?>" id="<?php echo $this->get_field_id("info_type") ?>">
+				<option value="news_information" <?php if($info_type=="news_information") echo "selected"; ?> >News & Information</option>
+				<option value="crusader_nation" <?php if($info_type=="crusader_nation") echo "selected"; ?>>Crusader Nation</option>
+				<option value="uniforms" <?php if($info_type=="uniforms") echo "selected"; ?>>Uniforms</option>
+				<option value="annual_report" <?php if($info_type=="annual_report") echo "selected"; ?>>Annual Report</option>
+				<option value="summer_reading_list" <?php if($info_type=="summer_reading_list") echo "selected"; ?>>Summer Reading List</option>
+				<option value="mass_schedule" <?php if($info_type=="mass_schedule") echo "selected"; ?>>Mass Schedule</option>
 			</select>
 		</p>
 		</label>
