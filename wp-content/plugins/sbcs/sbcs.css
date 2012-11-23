@@ -11,3 +11,36 @@ hr.sbcs_info
     background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
     background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
 }
+
+.sbcs_info_table
+{
+	border-collapse: separate;
+	border-spacing: 2px;
+	border-color: gray;
+}
+
+.sbcs_info_table_header
+{
+   	text-align: center;
+}
+
+.sbcs_info_table_row
+{
+	text-align: center;
+}
+
+.sbcs_info_table_col
+{
+	text-align: center;
+	border: 1px solid black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 3px;
+	padding-right: 3px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+#sbcs_news_info_div
+{
+}
