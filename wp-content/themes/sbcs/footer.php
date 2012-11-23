@@ -21,14 +21,17 @@
 	?>
 			
 	<div id="site-generator">
-	
-		<a href="http://www.douglasconsulting.net"> 
-			<img src="http://www.douglasconsulting.net/favicon.ico" style="width:32px;height:32px;vertical-align:middle;"> 
-		</a>Developed by <a href="http://www.douglasconsulting.net">Douglas Consulting</a>. 
-		<br />
-		<?php do_action( 'twentyeleven_credits' ); ?>
-		<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentyeleven' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'twentyeleven' ), 'WordPress' ); ?></a>
-
+		<div id="footer-left">
+			<img src="wp-content/themes/sbcs/images/CSJ_Network.gif">
+		</div>
+		<div id="footer-right">
+			<a href="http://www.douglasconsulting.net"> 
+				<img src="http://www.douglasconsulting.net/favicon.ico" style="width:32px;height:32px;vertical-align:middle;"> 
+			</a>Developed by <a href="http://www.douglasconsulting.net">Douglas Consulting</a>. 
+		</div>
+		<div id="footer-bottom">
+			Copyright &copy; St. Bernard's Catholic School  2006-2012, All Rights Reserved
+		</div>
 	</div>
 
 </footer><!-- #colophon -->

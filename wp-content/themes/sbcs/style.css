@@ -4,7 +4,7 @@ Theme URI:      http://www.douglasconsulting.net
 Description:    Child theme of the Twenty Eleven theme developed for SBCS.
 Author:         Jason Douglas
 Author URI:     http://www.douglasconsulting.net
-Template:       sbcs-twentyeleven
+Template:       twentyeleven
 Version:        0.1.0
 */
 
@@ -65,4 +65,16 @@ div.sbcs-info-widget
 	border-color: gray;
 	border-width: 1px;
 	padding: 5px;
+}
+
+div#footer-left
+{
+}
+
+div#footer-right
+{
+}
+
+div#footer-bottom
+{
 }
