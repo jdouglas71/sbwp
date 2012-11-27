@@ -37,14 +37,14 @@ class SBCS_Info_Widget
 							<b>Contact SBCS</b><br />
 							222 Dollison St.<br />
 							Eureka, CA 95501<br />
-							(707) 443-2735<br /><br />
-							<p><a href="http://sbcsbulletins.blogspot.com/">Bulletin</a></p>
-							<p><a href="http://www.stadiumroar.com/stbernardscatholicschool">Facilities Schedule</a></p>
-							<p><a href="https://sites.google.com/a/saintbernards.us/st-bernard-s-college-counseling/">College Counseling Department</a></p>
-							<p><a href="http://sbcscollegecounseling.blogspot.com/">Scholarships</a></p>
-							<p><a href='<?php echo site_url("/about-us/contact-us");?>'>Entire Directory</a></p>
-							<p><a href='<?php echo site_url("/pdfs/")."bell%20schedule.pdf";?>'>Bell Schedule</a></p>
-							<p>Email <a style="text-decoration: underline" href="mailto:pretzel@saintbernards.us?subject=Daily Bulletin Request">Lynn Pretzel</a> to receive our daily bulletin.</p>
+							(707) 443-2735<br />
+							<a href="http://sbcsbulletins.blogspot.com/">Bulletin</a><br />
+							<a href="http://www.stadiumroar.com/stbernardscatholicschool">Facilities Schedule</a><br />
+							<a href="https://sites.google.com/a/saintbernards.us/st-bernard-s-college-counseling/">College Counseling Department</a><br />
+							<a href="http://sbcscollegecounseling.blogspot.com/">Scholarships</a><br />
+							<a href='<?php echo site_url("/about-us/contact-us");?>'>Entire Directory</a><br />
+							<a href='<?php echo site_url("/pdfs/")."bell%20schedule.pdf";?>'>Bell Schedule</a><br />
+							Email <a style="text-decoration: underline" href="mailto:pretzel@saintbernards.us?subject=Daily Bulletin Request">Lynn Pretzel</a> to receive our daily bulletin.<br />
 						</td>
 					</tr>
 				</table>
@@ -52,32 +52,59 @@ class SBCS_Info_Widget
 				break;
 			case "crusader_nation":
 				?>
-				<div class="sbcs-info-widget">
 				<?php
 				echo $before_title;
-				echo "Crusader Nation";
 				echo $after_title;
 				?>
-					<hr class="sbcs_info">
-					<div class="sbcs_info">
-						<?php echo "Crusader Nation"; ?><br />
-					</div>
-				<div>
+				<table class="sbcs_info_table" cellpadding="0" cellspacing="0" style="width:180px;">
+					<tr class="sbcs_info_table_row" style="padding:0px;margin:0px;">
+						<td>
+							<img style="max-width:100%;width:100%;height:100%;padding:0px;margin:0px;" src='<?php echo site_url("/wp-content/uploads/2012/11/")."Crusader-bar2.jpg";?>'>
+						</td>
+					</tr>
+					<tr class="sbcs_info_table_row" style="padding:0px;margin:0px;">
+						<td>
+							<img style="max-width:100%;width:100%;height:100%;padding:0px;margin:0px;" src='<?php echo site_url("/wp-content/uploads/2012/11/")."CNationOctober1.jpg";?>'>
+						</td>
+					</tr>
+					<tr class="sbcs_info_table_row">
+						<td class="sbcs_cn_table_col">
+							<span style="color:#194e1b;">Crusader Nation</span><br />
+							<span style="color:#194e1b;text-decoration:underline">Now Online!</span><br />
+							<a href='<?php echo site_url("/pdfs/")."January%20News.pdf";?>'>January</a><br />
+							<a href='<?php echo site_url("/pdfs/")."February.pdf";?>'>February</a><br />
+							<a href='<?php echo site_url("/pdfs/")."Marchproof.pdf";?>'>March</a><br />
+							<a href='<?php echo site_url("/pdfs/")."Aprilproof.pdf";?>'>April</a><br />
+							<a href='<?php echo site_url("/pdfs/")."May.pdf";?>'>May</a><br />
+						</td>                                                                                                               
+					</tr>
+				</table>
+				<hr class="sbcs-info">
 	            <?php 
 				break;
 			case "uniforms":
 				?>
-				<div class="sbcs-info-widget">
 				<?php
 				echo $before_title;
-				echo "Uniforms";
 				echo $after_title;
 				?>
+					<table style="border:6px solid #194e1b; width: 79%; height: 80px">
+						<tbody>
+							<tr>
+								<th style="height: 80px; width: 135px; text-align: center;">
+									<span style="padding:8px;color:#194e1b;font-size:medium;font-weight:bold;">Dennis Uniform</span><br /><br />
+									<span >
+										<a href="http://www.dennisuniform.com/onlstore/ShowSchoolCatalog.asp?sc=O28STB&amp;dis=10437975" target="_blank">
+											Shop Online
+										</a>
+									</span>
+								</th>
+							</tr>
+						</tbody>
+					</table>
+					<br />
 					<hr class="sbcs_info">
-					<div class="sbcs_info">
-						<?php echo "Uniforms"; ?><br />
-					</div>
-				</div>
+                    <a href="http://www.landsend.com/pp/SchoolSearch.html?action=landing&amp;selectedSchoolNum=900076290" target="_blank"><img alt="" height="125" src='<?php echo site_url("/wp-content/uploads/2012/11/")."Lands-End-Gif.gif"?>' width="125"></a>
 				<?php 
 				break;
 			case "annual_report":
@@ -98,7 +125,7 @@ class SBCS_Info_Widget
 				echo $after_title;
 				?>
 					<p style="text-align:center;">
-						<big><b>Summer Reading List<br />1st Grade - 12th Grade</b></big><br />
+						<span style="font-size:large;font-weight:bold;"><big><b>Summer Reading List<br />1st Grade - 12th Grade</b></big><br /></span>
 						<a href='<? echo site_url("/pdfs/")."Reading_list_2012.pdf";?>'>
 							(reading list)
 						</a>

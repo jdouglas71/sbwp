@@ -40,6 +40,14 @@ hr.sbcs_info
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 }
+.sbcs_cn_table_col
+{
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
 
 #sbcs_news_info_div
 {
