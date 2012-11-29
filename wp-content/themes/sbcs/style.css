@@ -118,6 +118,15 @@ div#site-generator
 	padding-right: 105px;
 }
 
+#branding
+{
+	background-color: #194E1B;
+	background-image: url('./images/top_banner_bg2.gif');
+	background-repeat: repeat-x;
+	background-position: top left;
+	background-attachment: fixed;
+}
+
 div.menu
 {
    	font-family: tahoma;
