@@ -19,6 +19,7 @@ wp-content/install.php
 wp-content/upgrade/
 wp-content/uploads/
 wp-content/backups/
+wp-content/a6fcf2a7de-backups/
 wp-content/index.php
 wp-content/themes/smallbiz/
 wp-content/themes/twentyten/
@@ -35,7 +36,5 @@ wp-content/plugins/exclude-pages/
 wp-content/plugins/.DS_Store
 wp-content/plugins/index.php
 wp-content/plugins/backupwordpress
-wp-content/plugins/jetpack
-wp-content/plugins/wiziapp
-
+wp-content/plugins/dk-new-medias-image-rotator-widget/
 
