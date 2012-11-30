@@ -69,8 +69,13 @@ function boom_build_nivo_slider( $slides = array(), $width = null, $height = nul
 		$height = "height: {$height}px";
 
 	$nivo_slides = '';
+	//foreach( $slides as $slide ) {
+	//	$nivo_slides .= "<img src='{$slide}' alt='' />";
+	//}
 	foreach( $slides as $slide ) {
-		$nivo_slides .= "<img src='{$slide}' alt='' />";
+		$tmp67 = "<a href='".$link_urls[$i]."'><img src='{$slide}' alt='bmx' /></a>".$nivo_slides;
+		$nivo_slides = $tmp67;
+		$i++;
 	}
 	$options = boom_nivo_slider_options();
 	echo "
