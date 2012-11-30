@@ -75,17 +75,18 @@
 	 */
 	wp_head();
 ?>
-
 </head>
 
 <body <?php body_class(); ?>>
 
 <div id="page" class="hfeed">
 	<header id="branding" role="banner">
+			<!--
 			<hgroup>
 				<h1 id="site-title"><span><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span></h1>
 				<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
 			</hgroup>
+			-->
 
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 				<img src="<?php echo site_url('/wp-content/uploads/2012/11/').'top_banner1.png'; ?>" width="930" height="148" alt="" />
@@ -116,7 +117,13 @@
 			</nav><!-- #access -->
 
 	</header><!-- #branding -->
-			<?php boom_header_image(); ?>
+
+	<div id="header-slider">
+		<?php boom_header_image(); ?>
+	</div>
+
+	<br />
+	<hr class="header-line">
 
 	<div id="main">
 
