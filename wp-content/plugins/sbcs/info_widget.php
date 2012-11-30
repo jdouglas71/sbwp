@@ -68,15 +68,17 @@ class SBCS_Info_Widget
 								<img style="max-width:100%;width:100%;height:100%;padding:0px;margin:0px;" src='<?php echo site_url("/wp-content/uploads/2012/11/")."CNationOctober1.jpg";?>'>
 							</td>
 						</tr>
-						<tr class="sbcs_info_table_row">
-							<td class="sbcs_cn_table_col">
-								<span style="color:#194e1b;">Crusader Nation</span><br />
-								<span style="color:#194e1b;text-decoration:underline">Now Online!</span><br />
-								<a href='<?php echo site_url("/pdfs/")."January%20News.pdf";?>'>January</a><br />
-								<a href='<?php echo site_url("/pdfs/")."February.pdf";?>'>February</a><br />
-								<a href='<?php echo site_url("/pdfs/")."Marchproof.pdf";?>'>March</a><br />
-								<a href='<?php echo site_url("/pdfs/")."Aprilproof.pdf";?>'>April</a><br />
-								<a href='<?php echo site_url("/pdfs/")."May.pdf";?>'>May</a><br />
+						<tr class="sbcs_info_table_row" style="padding:0px;margin:0px;">
+							<td class="sbcs_cn_table_col" style="padding:0px;margin:0px;">
+								<!--<span style="color:#164c19;font-family:Arial,Helvetica,san-serif;font-size:medium;">Crusader Nation</span><br />-->
+								<span style="color:#164c19;text-decoration:underline;font-family:Arial,Helvetica,san-serif;font-size:medium;">Now Online!</span><br />
+								<span style="text-decoration:underline;font-family:Arial,Helvetica,san-serif;font-size:medium;">
+									<a href='<?php echo site_url("/pdfs/")."January%20News.pdf";?>'>January</a><br />
+									<a href='<?php echo site_url("/pdfs/")."February.pdf";?>'>February</a><br />
+									<a href='<?php echo site_url("/pdfs/")."Marchproof.pdf";?>'>March</a><br />
+									<a href='<?php echo site_url("/pdfs/")."Aprilproof.pdf";?>'>April</a><br />
+									<a href='<?php echo site_url("/pdfs/")."May.pdf";?>'>May</a><br />
+								</span>
 							</td>                                                                                                               
 						</tr>
 					</table>
