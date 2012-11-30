@@ -56,30 +56,32 @@ class SBCS_Info_Widget
 				echo $before_title;
 				echo $after_title;
 				?>
-				<table class="sbcs_info_table" cellpadding="0" cellspacing="0" style="width:180px;">
-					<tr class="sbcs_info_table_row" style="padding:0px;margin:0px;">
-						<td>
-							<img style="max-width:100%;width:100%;height:100%;padding:0px;margin:0px;" src='<?php echo site_url("/wp-content/uploads/2012/11/")."Crusader-bar2.jpg";?>'>
-						</td>
-					</tr>
-					<tr class="sbcs_info_table_row" style="padding:0px;margin:0px;">
-						<td>
-							<img style="max-width:100%;width:100%;height:100%;padding:0px;margin:0px;" src='<?php echo site_url("/wp-content/uploads/2012/11/")."CNationOctober1.jpg";?>'>
-						</td>
-					</tr>
-					<tr class="sbcs_info_table_row">
-						<td class="sbcs_cn_table_col">
-							<span style="color:#194e1b;">Crusader Nation</span><br />
-							<span style="color:#194e1b;text-decoration:underline">Now Online!</span><br />
-							<a href='<?php echo site_url("/pdfs/")."January%20News.pdf";?>'>January</a><br />
-							<a href='<?php echo site_url("/pdfs/")."February.pdf";?>'>February</a><br />
-							<a href='<?php echo site_url("/pdfs/")."Marchproof.pdf";?>'>March</a><br />
-							<a href='<?php echo site_url("/pdfs/")."Aprilproof.pdf";?>'>April</a><br />
-							<a href='<?php echo site_url("/pdfs/")."May.pdf";?>'>May</a><br />
-						</td>                                                                                                               
-					</tr>
-				</table>
-				<hr class="sbcs-info">
+				<div style="text-align: center;width:100%;">
+					<table class="sbcs_info_table" cellpadding="0" cellspacing="0" style="width:180px;margin-left:auto;margin-right:auto;">
+						<tr class="sbcs_info_table_row" style="padding:0px;margin:0px;">
+							<td>
+								<img style="max-width:100%;width:100%;height:100%;padding:0px;margin:0px;" src='<?php echo site_url("/wp-content/uploads/2012/11/")."Crusader-bar2.jpg";?>'>
+							</td>
+						</tr>
+						<tr class="sbcs_info_table_row" style="padding:0px;margin:0px;">
+							<td>
+								<img style="max-width:100%;width:100%;height:100%;padding:0px;margin:0px;" src='<?php echo site_url("/wp-content/uploads/2012/11/")."CNationOctober1.jpg";?>'>
+							</td>
+						</tr>
+						<tr class="sbcs_info_table_row">
+							<td class="sbcs_cn_table_col">
+								<span style="color:#194e1b;">Crusader Nation</span><br />
+								<span style="color:#194e1b;text-decoration:underline">Now Online!</span><br />
+								<a href='<?php echo site_url("/pdfs/")."January%20News.pdf";?>'>January</a><br />
+								<a href='<?php echo site_url("/pdfs/")."February.pdf";?>'>February</a><br />
+								<a href='<?php echo site_url("/pdfs/")."Marchproof.pdf";?>'>March</a><br />
+								<a href='<?php echo site_url("/pdfs/")."Aprilproof.pdf";?>'>April</a><br />
+								<a href='<?php echo site_url("/pdfs/")."May.pdf";?>'>May</a><br />
+							</td>                                                                                                               
+						</tr>
+					</table>
+				</div>
+				<hr class="sbcs_info">
 	            <?php 
 				break;
 			case "uniforms":
@@ -88,7 +90,8 @@ class SBCS_Info_Widget
 				echo $before_title;
 				echo $after_title;
 				?>
-					<table style="border:6px solid #194e1b; width: 79%; height: 80px">
+				<div style="text-align: center;width:100%;">
+					<table style="border:6px solid #194e1b; width: 79%; height: 80px; margin-left:auto; margin-right:auto;">
 						<tbody>
 							<tr>
 								<th style="height: 80px; width: 135px; text-align: center;">
@@ -105,6 +108,7 @@ class SBCS_Info_Widget
 					<br />
 					<hr class="sbcs_info">
                     <a href="http://www.landsend.com/pp/SchoolSearch.html?action=landing&amp;selectedSchoolNum=900076290" target="_blank"><img alt="" height="125" src='<?php echo site_url("/wp-content/uploads/2012/11/")."Lands-End-Gif.gif"?>' width="125"></a>
+				</div>
 				<?php 
 				break;
 			case "annual_report":
@@ -113,9 +117,11 @@ class SBCS_Info_Widget
 				echo $before_title;
 				echo $after_title;
 				?>
+				<div style="text-align: center;width:100%;">
 					<a href="http://issuu.com/cvp-design/docs/sbcs-ar-2010?mode=embed&amp;layout=http%3A%2F%2Fskin.issuu.com%2Fv%2Fdark%2Flayout.xml&amp;showFlipBtn=true">
 						<img alt="SBCS AR 2010" height="195" longdesc="St. Bernard's Catholic School Annual Report 2010" src='<?php echo site_url("/wp-content/uploads/2012/11/")."ar10_web-iconsm.jpg";?>' width="150"><br>
 					</a>
+				</div>
 	            <?php 
 				break;
 			case "summer_reading_list":
@@ -124,12 +130,14 @@ class SBCS_Info_Widget
 				echo $before_title;
 				echo $after_title;
 				?>
+				<div style="text-align: center;width:100%;">
 					<p style="text-align:center;">
 						<span style="font-size:large;font-weight:bold;"><big><b>Summer Reading List<br />1st Grade - 12th Grade</b></big><br /></span>
 						<a href='<? echo site_url("/pdfs/")."Reading_list_2012.pdf";?>'>
 							(reading list)
 						</a>
 					</p>
+				</div>
 	            <?php 
 				break;
 			case "mass_schedule":
@@ -138,10 +146,12 @@ class SBCS_Info_Widget
 				echo $before_title;
 				echo $after_title;
 				?>
-				<a href='<?php echo site_url("/pdfs/")."Mass_Schedule_2011-12.pdf";?>'>
-					<img src='<?php echo site_url("/wp-content/uploads/2012/11/")."Mass_Schedule.gif";?>' width="165" height="150">
-					<br />
-				</a>
+				<div style="text-align: center;width:100%;">
+					<a href='<?php echo site_url("/pdfs/")."Mass_Schedule_2011-12.pdf";?>'>
+						<img src='<?php echo site_url("/wp-content/uploads/2012/11/")."Mass_Schedule.gif";?>' width="165" height="150">
+						<br />
+					</a>
+				</div>
 	            <?php 
 				break;
 		}
