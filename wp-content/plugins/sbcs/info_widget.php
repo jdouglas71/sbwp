@@ -123,6 +123,7 @@ class SBCS_Info_Widget
 					<a href="http://issuu.com/cvp-design/docs/sbcs-ar-2010?mode=embed&amp;layout=http%3A%2F%2Fskin.issuu.com%2Fv%2Fdark%2Flayout.xml&amp;showFlipBtn=true">
 						<img alt="SBCS AR 2010" height="195" longdesc="St. Bernard's Catholic School Annual Report 2010" src='<?php echo site_url("/wp-content/uploads/2012/11/")."ar10_web-iconsm.jpg";?>' width="150"><br>
 					</a>
+                    <b>St. Bernard's Catholic School Annual Report 2010</b> <br />
 				</div>
 	            <?php 
 				break;
