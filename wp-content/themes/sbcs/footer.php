@@ -20,17 +20,17 @@
 			get_sidebar( 'footer' );
 	?>
 			
-	<div id="site-generator">
+	<div id="site-generator" >
 		<div id="footer-left">
-			<img src="wp-content/themes/sbcs/images/CSJ_Network.gif">
+			<img src='<?php echo site_url("/wp-content/themes/sbcs/images/")."CSJ_Network.gif";?>'>
 		</div>
 		<div id="footer-right">
 			<a href="http://www.douglasconsulting.net"> 
 				<img src="http://www.douglasconsulting.net/favicon.ico" style="width:32px;height:32px;vertical-align:middle;"> 
-			</a>Developed by <a href="http://www.douglasconsulting.net">Douglas Consulting</a>. 
+			</a>Developed by <a href="http://www.douglasconsulting.net">Douglas Consulting</a>.<br /><br /> 
+			Copyright &copy; St. Bernard's Catholic School  2006-2012, All Rights Reserved
 		</div>
 		<div id="footer-bottom">
-			Copyright &copy; St. Bernard's Catholic School  2006-2012, All Rights Reserved
 		</div>
 	</div>
 
