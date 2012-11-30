@@ -26,10 +26,10 @@ class SBCS_Info_Widget
 				echo $before_title;
 				echo $after_title;
 				?>
-				<table class="sbcs_info_table" cellpadding="0" cellspacing="0">
-					<tr class="sbcs_info_table_row" style="padding:0px;margin:0px;">
-						<td>
-							<img style="max-width:100%;width:100%;height:100%;padding:0px;margin:0px;" src='<?php echo site_url("/wp-content/plugins/sbcs/images/")."NewsTab.gif";?>'>
+				<table class="sbcs_info_table" cellpadding="0" cellspacing="0" style="width:180px;margin-left:auto;margin-right:auto;">
+					<tr class="sbcs_info_table_row" style="color:blue;">
+						<td class="sbcs_info_table_header" style="">
+							<img style="max-width:100%;width:100%;height:100%;padding:0px;margin:0px;vertical-align:bottom;" src='<?php echo site_url("/wp-content/plugins/sbcs/images/")."NewsTab.gif";?>'>
 						</td>
 					</tr>
 					<tr class="sbcs_info_table_row">
@@ -60,7 +60,7 @@ class SBCS_Info_Widget
 					<table class="sbcs_info_table" cellpadding="0" cellspacing="0" style="width:180px;margin-left:auto;margin-right:auto;">
 						<tr class="sbcs_info_table_row" style="padding:0px;margin:0px;">
 							<td>
-								<img style="max-width:100%;width:100%;height:100%;padding:0px;margin:0px;" src='<?php echo site_url("/wp-content/uploads/2012/11/")."Crusader-bar2.jpg";?>'>
+								<img style="max-width:100%;width:100%;height:100%;padding:0px;margin:0px;vertical-align:bottom;" src='<?php echo site_url("/wp-content/uploads/2012/11/")."Crusader-bar2.jpg";?>'>
 							</td>
 						</tr>
 						<tr class="sbcs_info_table_row" style="padding:0px;margin:0px;">
