@@ -18,7 +18,7 @@ $sbcs_version = "0.5";
 /** Text (not really used, just a test) */
 
 /** Scripts */
-require_once(SBCS_DIR.'functions.php');
+//require_once(SBCS_DIR.'functions.php');
 require_once(SBCS_DIR.'info_widget.php');
 require_once(SBCS_DIR.'html-widget.php');
 
