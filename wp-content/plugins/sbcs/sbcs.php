@@ -3,7 +3,7 @@
 Plugin Name: SBCS
 Plugin URI: http://www.douglasconsulting.net
 Description: The St. Bernard's wordpress plugin.
-Version: 0.5 Alpha
+Version: 0.6 Beta
 Author: Jason Douglas
 Author URI: http://www.douglasconsulting.net
 License: GPL
@@ -47,6 +47,7 @@ function sbcs_admin_page()
 function sbcs_widget_init()
 {
 	register_widget("SBCS_Info_Widget");
+	register_widget("SBCS_HTML_Widget");
 }
 
 /** SHORTCODES **/
