@@ -206,8 +206,9 @@ div.headerSlider.nivoSlider
 	width: 700px !important;
 	max-width: 700px !important;
 	height: 284px !important;
-	margin-top: 35px;
-	margin-left: 150px;
+	margin-top: 65px;
+	margin-left: auto;
+	margin-right: auto;
 	border-radius: 15px;
 	border: 3px ridge gray;
 }
@@ -233,9 +234,5 @@ hr.header-line
 	margin-bottom: 0px;
 	background-color: white;
 }
-
-
-
-
 
 

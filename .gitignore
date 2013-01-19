@@ -37,4 +37,7 @@ wp-content/plugins/.DS_Store
 wp-content/plugins/index.php
 wp-content/plugins/backupwordpress
 wp-content/plugins/dk-new-medias-image-rotator-widget/
+wp-content/connection_images/
+wp-content/plugins/connections
+wp-content/themes/sbcs/tmp
 
