@@ -40,11 +40,8 @@ class SBCS_Info_Widget
 							(707) 443-2735<br />
 							<a href="http://sbcsbulletins.blogspot.com/">Bulletin</a><br />
 							<a href="http://www.stadiumroar.com/stbernardscatholicschool">Facilities Schedule</a><br />
-							<a href="https://sites.google.com/a/saintbernards.us/st-bernard-s-college-counseling/">College Counseling Department</a><br />
 							<a href="http://sbcscollegecounseling.blogspot.com/">Scholarships</a><br />
 							<a href='<?php echo site_url("/about-us/contact-us");?>'>Entire Directory</a><br />
-							<a href='<?php echo site_url("/pdfs/")."bell%20schedule.pdf";?>'>Bell Schedule</a><br />
-							Email <a style="text-decoration: underline" href="mailto:pretzel@saintbernards.us?subject=Daily Bulletin Request">Lynn Pretzel</a> to receive our daily bulletin.<br />
 						</td>
 					</tr>
 				</table>
