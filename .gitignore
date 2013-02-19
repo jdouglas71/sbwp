@@ -12,6 +12,7 @@ sreplace.php
 *.log
 Thumbs.db
 index.php
+default.html
 
 wp-admin/
 wp-includes/
@@ -40,4 +41,16 @@ wp-content/plugins/dk-new-medias-image-rotator-widget/
 wp-content/connection_images/
 wp-content/plugins/connections
 wp-content/themes/sbcs/tmp
+wp-content/plugins/admin
+wp-content/plugins/business.php
+wp-content/plugins/country_regex.inc.php
+wp-content/plugins/easy-columns
+wp-content/plugins/env_helper.php
+wp-content/plugins/readme.txt
+wp-content/plugins/fbcomments_page.inc.php
+wp-content/plugins/*.png
+wp-content/plugins/sitewit/
+wp-content/plugins/slideshow-jquery-image-gallery/
+wp-content/plugins/themes
+
 
