@@ -38,7 +38,8 @@ class SBCS_Info_Widget
 							222 Dollison St.<br />
 							Eureka, CA 95501<br />
 							(707) 443-2735<br />
-							<a href="http://sbcsbulletins.blogspot.com/">Bulletin</a><br />
+							<a href="http://www.saintbernards.us/college-counseling-2/senior-important-dates/">Senior Calendar</a><br />
+							<a href="http://www.saintbernards.us/athletics/sports-calendars/">Athletics Calendar</a><br />
 							<a href="http://www.stadiumroar.com/stbernardscatholicschool">Facilities Schedule</a><br />
 							<a href="http://sbcscollegecounseling.blogspot.com/">Scholarships</a><br />
 							<a href='<?php echo site_url("/about-us/contact-us");?>'>Entire Directory</a><br />
