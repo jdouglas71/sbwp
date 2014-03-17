@@ -41,7 +41,7 @@ class SBCS_Info_Widget
 							<a href="http://www.saintbernards.us/life-at-sb/sb-bulletin/">Bulletin</a><br />
 							<a href="http://www.saintbernards.us/college-counseling-2/senior-important-dates/">Senior Calendar</a><br />
 							<a href="http://www.saintbernards.us/athletics/sports-calendars/">Athletics Calendar</a><br />
-							<a href="http://www.stadiumroar.com/stbernardscatholicschool">Facilities Schedule</a><br />
+							<a href="http://www.saintbernards.us/life-at-sb/facility-use/">Facilities Schedule</a><br />
 							<a href="http://sbcscollegecounseling.blogspot.com/">Scholarships</a><br />
 							<a href='<?php echo site_url("/about-us/contact-us");?>'>Entire Directory</a><br />
 						</td>
